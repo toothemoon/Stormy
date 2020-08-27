@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                             alertUserAboutError();
                         }
                     } catch (IOException e) {
-                        Log.e(TAG, "IO Exception caught: ", e);
+                        Log.e(TAG, "IO Exception caught: ", e);//
                     }
                 }
             });
