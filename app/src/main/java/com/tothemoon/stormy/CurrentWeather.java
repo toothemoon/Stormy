@@ -39,6 +39,14 @@ public class CurrentWeather {
         this.icon = icon;
     }
 
+    public int getIconId() {
+        // clear-day, clear-night, rain, snow, sleet, wind, fog,
+        // cloudy, partly-cloudy-day, partly-cloudy-night,
+        // hail, thunderstorm, or tornado
+
+        int iconId = R.drawable.clear_day;
+    }
+
     public long getTime() {
         return time;
     }
