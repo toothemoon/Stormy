@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
             currentWeather.setPrecipChance(currently.getDouble("precipProbability"));
             currentWeather.setSummary(currently.getString("summary"));
             currentWeather.setTemperature(currently.getDouble("temperature"));
-
+//
             return currentWeather;
     }
 
