@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         String apiKey = "53fc5fbef8790c35e60848ea7a452e0a";
-
         double latitude = 51.462688;
         double longitude = 0.106340;
 
