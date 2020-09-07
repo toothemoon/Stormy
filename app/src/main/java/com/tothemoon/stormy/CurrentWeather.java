@@ -7,6 +7,22 @@ import java.util.TimeZone;
 public class CurrentWeather {
 
     private String locationLabel;
+
+    public CurrentWeather() {
+    }
+
+    public CurrentWeather(String locationLabel, String icon, long time, double temperature,
+                          double humidity, double precipChance, String summary, String timeZone) {
+        this.locationLabel = locationLabel;
+        this.icon = icon;
+        this.time = time;
+        this.temperature = temperature;
+        this.humidity = humidity;
+        this.precipChance = precipChance;
+        this.summary = summary;
+        this.timeZone = timeZone;
+    }
+
     private String icon;
     private long time;
     private double temperature;
