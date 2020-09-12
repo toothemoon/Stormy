@@ -119,7 +119,8 @@ public class CurrentWeather {
     }
 
     public void setTemperature(double temperature) {
-        this.temperature = temperature;
+         this.temperature = temperature;
+
     }
 
     public double getHumidity() {
